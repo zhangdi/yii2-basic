@@ -1,0 +1,79 @@
+/*!
+ * @copyright Copyright (c) 2016 Zhang Di <zhangdi_me@163.com>
+ */
+html, body {
+  font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif; }
+
+body {
+  overflow-x: hidden; }
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out; }
+  #sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+    color: #fff; }
+  #sidebar-wrapper .sidebar-heading a {
+    color: #fff;
+    text-decoration: none; }
+  #sidebar-wrapper .list-group {
+    width: 15rem; }
+
+#page-content-wrapper {
+  min-width: 100vw; }
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0; }
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0; }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%; }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem; } }
+.main-login {
+  height: 100vh;
+  background-size: cover;
+  background-image: url(../images/bg.jpg); }
+
+.login-box {
+  max-width: 400px;
+  min-width: 240px;
+  margin: 0 auto;
+  padding-top: 30vh; }
+  .login-box .card {
+    background-color: rgba(255, 255, 255, 0.8); }
+
+.sidebar-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 16rem;
+  color: rgba(255, 255, 255, 0.8);
+  border-top: 1px solid rgba(0, 0, 0, 0.125); }
+  .sidebar-nav li.header {
+    padding: 5px 15px;
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.275); }
+  .sidebar-nav li a {
+    display: block;
+    padding: 10px 15px;
+    border-color: rgba(0, 0, 0, 0.125);
+    border-style: solid;
+    border-width: .5px 0;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgba(0, 0, 0, 0.175); }
+    .sidebar-nav li a:hover {
+      background: rgba(0, 0, 0, 0.375); }
+
+/*# sourceMappingURL=backend.css.map */

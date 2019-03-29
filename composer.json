@@ -1,0 +1,32 @@
+{
+    "name": "zhangdi/yii2-basic",
+    "description": "Yii2 Basic Project",
+    "minimum-stability": "stable",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Zhang Di",
+            "email": "zhangdi_me@163.com"
+        }
+    ],
+    "require": {
+        "php": "7.1.*",
+        "yiisoft/yii2": "2.0.17",
+        "symfony/yaml": "v4.1.11",
+        "yiisoft/yii2-bootstrap4": "2.0.1"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "v4.2.4"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "src"
+        }
+    }
+}

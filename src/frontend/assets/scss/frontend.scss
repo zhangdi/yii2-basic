@@ -1,0 +1,9 @@
+$fontFamily: Helvetica, Tahoma, Arial, "Microsoft YaHei", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
+
+html, body {
+  font-family: $fontFamily !important;
+}
+
+.main-content {
+  min-height: 800px;
+}

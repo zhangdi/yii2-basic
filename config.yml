@@ -1,0 +1,11 @@
+app:
+  debug: {DEBUG??true}
+  env: {ENV??dev}
+  id: basic
+  name: 我的 APP
+  key: yii2-basic
+  db:
+    dsn: mysql:host=localhost;dbname=yii2basic
+    username: root
+    password: root
+    tablePrefix:
